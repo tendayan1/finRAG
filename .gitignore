@@ -28,6 +28,7 @@ eval_report.json
 # ===== IDE / 系统 =====
 .idea/
 .vscode/
+.trae/
 .DS_Store
 Thumbs.db
 Desktop.ini
