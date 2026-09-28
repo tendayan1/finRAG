@@ -1,0 +1,33 @@
+# ===== 密钥配置（必须忽略，真实 API key 在内）=====
+.env
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ===== 项目内虚拟环境（600MB+，且为挪动过的旧 venv）=====
+finrag/
+
+# ===== 大文件：比赛数据集 / 持久化向量库 / 评测模型 =====
+bs_challenge_financial_14b_dataset/
+vectorstore/
+eval/models/
+
+# ===== 运行产物（批量评测、评估报告、断点进度）=====
+output/
+*.progress.jsonl
+eval/val_results.csv
+eval/valset_progress.jsonl
+eval/evaluate_result_detail.jsonl
+eval/submit_result.jsonl
+eval/local_score.json
+eval_report.json
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
