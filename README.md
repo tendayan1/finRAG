@@ -141,6 +141,8 @@ CLI 参数：
 
 ### 5. 前端演示
 
+![演示图片](Frontend.png)
+
 ```powershell
 finrag\Scripts\python.exe -m web.server              # 默认 127.0.0.1:8000
 finrag\Scripts\python.exe -m web.server --host 0.0.0.0 --port 9000
@@ -150,8 +152,6 @@ finrag\Scripts\python.exe -m web.server --host 0.0.0.0 --port 9000
 - **侧边栏**：库统计（公司数 / chunk 数 / 数据表数 / 模型配置）、6 个示例问题、工具集说明
 - **聊天主区**：用户消息气泡 + Agent 回复，含工具调用轨迹（步骤名 + 参数 + 结果预览）、最终答案、引用溯源、耗时统计
 - **响应式布局**：窄屏自动隐藏侧边栏
-- ![演示图片](frontend.png)
-- 
 
 API 路由：
 
